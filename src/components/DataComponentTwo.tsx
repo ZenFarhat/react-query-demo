@@ -6,6 +6,7 @@ export default function DataComponentTwo() {
   if (isFetching) {
     console.log("Fetching new data in component 2")
   }
+
   return (
     <div>
       {data?.slice(2, 3).map((post, i) => {
