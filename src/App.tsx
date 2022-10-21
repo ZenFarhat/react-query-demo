@@ -4,7 +4,7 @@ import DataComponentTwo from "./components/DataComponentTwo"
 import RefetchButton from "./components/RefetchButton"
 
 function App() {
-  const [dataComponent, setDataComponent] = useState(true)
+  const [dataComponent, setDataComponent] = useState(false)
   const [dataComponentTwo, setDataComponentTwo] = useState(false)
 
   return (

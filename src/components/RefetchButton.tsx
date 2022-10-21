@@ -1,8 +1,7 @@
-import React from "react"
 import { usePosts } from "../ReactQueries"
 
 export default function RefetchButton() {
-  const { refetch } = usePosts()
+  const { refetch } = usePosts(false)
 
   const onClick = () => refetch()
 
